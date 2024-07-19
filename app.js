@@ -1,7 +1,14 @@
-// Get the button
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+});
+
 let scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
-// Show the button when the user scrolls down 20px from the top
 window.onscroll = function() {
     scrollFunction();
 };
