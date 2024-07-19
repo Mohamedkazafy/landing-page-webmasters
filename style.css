@@ -338,3 +338,22 @@ footer div{
     display: flex;
     justify-content: space-around;
 }
+
+.scroll-to-top-btn {
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.scroll-to-top-btn:hover {
+    background-color: #333;
+}
