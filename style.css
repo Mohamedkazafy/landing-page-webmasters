@@ -2,7 +2,7 @@
 
 * {
     padding: 0;
-    margin: 0 0.75rem;
+    margin: 1rem 0.75rem;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
@@ -42,7 +42,8 @@ nav button {
 .hero-secound,
 nav,
 .services-section,
-.fourth-section {
+.fourth-section ,
+.steps{
     display: flex;
     align-items: center;
     padding: 10px;
@@ -218,4 +219,44 @@ nav,
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+
+
+.steps-text img{
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    padding: 20px;
+    background-color: #1F1F1F;
+}
+.steps-text div{
+    display: flex;
+}
+.steps-text{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 4rem;
+}
+
+.internal-steps h1{
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 70.19px;
+    color: #1F1F1F;
+}
+
+.internal-steps h4{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.31px;
+    color: #1F1F1F;
+}
+.icon-text{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39.65px;
+    color: #545454;
 }
