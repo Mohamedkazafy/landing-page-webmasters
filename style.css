@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-* {
+*{
     padding: 0;
     margin: 1rem 0.75rem;
     box-sizing: border-box;
@@ -43,7 +43,8 @@ nav button {
 nav,
 .services-section,
 .fourth-section ,
-.steps{
+.steps,
+footer{
     display: flex;
     align-items: center;
     padding: 10px;
@@ -259,4 +260,81 @@ nav,
     font-size: 24px;
     line-height: 39.65px;
     color: #545454;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subscribe div{
+    width: 979px;
+}
+.subscribe h1{
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 70.19px;
+    color: #1F1F1F;
+}
+
+.subscribe p{
+    font-weight: 500;
+    font-size: 24px;
+    color: #545454;
+    line-height: 39.65px;
+}
+
+.subscribe input{
+    padding: 10px;
+    width: 400px;
+    margin-right: 10px;
+}
+
+.input{
+    position: relative;
+}
+
+.subscribe button{
+    position: absolute;
+    padding: 10px;
+    background-color: #1F1F1F;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+footer{
+    background-color: #1F1F1F;
+    margin: 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos{
+    display: block;
+    width: 400px;
+}
+
+.logos p{
+    line-height: 33.15px;
+    font-size: 24px;
+}
+.OurServices p{
+    line-height: 26.63px;
+    font-size: 22px;
+}
+
+.OurServices h5{
+    font-size: 24px;
+    line-height: 26.63px;
+}
+footer div{
+    display: block;
+}
+
+.OurServices{
+    display: flex;
+    justify-content: space-around;
 }
